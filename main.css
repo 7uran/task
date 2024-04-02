@@ -1,0 +1,175 @@
+body {
+    background-color: #004CF0;
+    font-family: "Roboto";
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+
+.login-div {
+    
+    background-color: #ffffff;
+    border-radius: 10px;
+    float: left;
+    margin: auto;
+    width: 450px;
+    height: 550px;
+    text-align: center;
+
+
+}
+
+.signup-div {
+    float: left;
+    margin-top: 58px;
+    margin-left: 100px;
+    width: 450px;
+    height: 600px;
+}
+
+.login-p {
+    font-size: 30px;
+    font-weight: 700;
+   
+}
+
+.email-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    
+}
+
+.password-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    margin-top: 15px;
+
+}
+
+.forgot-a {
+    color: #004CF0;
+    margin-left: 45px;
+    display: inline;
+    text-decoration: none;
+
+}
+
+.login-btn{
+    background-color: #124ACD;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+}
+.signup{
+    text-decoration: none;
+    color: #004CF0;
+}
+
+.fb-btn{
+    background-color: #124ACD;
+    cursor: pointer;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+}
+.fa-facebook,.fa-google{
+    font-size: 20px;
+}
+.g-btn{
+    margin-top: 10px;
+    cursor: pointer;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+    color: black;
+}
+
+.email-input:invalid,.password-input:invalid{
+    border-color:red
+}
