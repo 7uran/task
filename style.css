@@ -85,18 +85,10 @@ body {
     float: left;
     margin: auto;
     width: 450px;
-    height: 550px;
+    height: 600px;
     text-align: center;
 
 
-}
-
-.signup-div {
-    float: left;
-    margin-top: 58px;
-    margin-left: 100px;
-    width: 450px;
-    height: 600px;
 }
 
 .signup-p {
@@ -114,6 +106,8 @@ body {
 }
 
 .password-input {
+    display: block;
+    margin: auto;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 350px;
@@ -123,6 +117,8 @@ body {
 }
 
 .login-btn{
+    display: block;
+    margin: auto;
     background-color: #124ACD;
     cursor: pointer;
     margin-top: 30px;
@@ -148,6 +144,7 @@ body {
 }
 .fa-facebook,.fa-google{
     font-size: 20px;
+    padding-right:20px;
 }
 .g-btn{
     margin-top: 10px;
@@ -162,3 +159,5 @@ body {
 .email-input:invalid,.password-input:invalid{
     border-color:red
 }
+
+

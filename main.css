@@ -117,17 +117,19 @@ body {
 }
 
 .password-input {
+    display: block;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 350px;
     height: 40px;
+    margin: auto;
     margin-top: 15px;
+    
 
 }
 
 .forgot-a {
     color: #004CF0;
-    margin-left: 45px;
     display: inline;
     text-decoration: none;
 
@@ -159,6 +161,7 @@ body {
 }
 .fa-facebook,.fa-google{
     font-size: 20px;
+    padding-right: 20px;
 }
 .g-btn{
     margin-top: 10px;

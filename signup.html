@@ -20,9 +20,13 @@
     <div class="login-div">
         <form>
             <p class="signup-p">Signup</p>
-            <input type="email" placeholder="Email" class="email-input">
-            <input type="password" placeholder="Create password" minlength="6" maxlength="20" class="password-input">
-            <input type="password" placeholder="Confrim password" minlength="6" maxlength="20" class="password-input">
+            <input type="email" placeholder="Email" class="email-input" required>
+            <input type="password" placeholder="Create password" minlength="6" maxlength="20" class="password-input"
+                required>
+            <input type="password" placeholder="Confrim password" minlength="6" maxlength="20" class="password-input"
+                required>
+            <input type="radio" id="male" name="gender" required><label for="male">Male</label>
+            <input type="radio" id="female" name="gender" required><label for="female">Female</label>
             <input type="submit" value="Login" class="login-btn"></input>
         </form>
         <p>Already have an account? <a class="signup" href="./index.html">Login</a></p>
